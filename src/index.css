@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(assets/fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(assets/fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(assets/fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+  font-family: IBMPlexMono-Regular;
+  src: url(assets/fonts/IBMPlexMono-Regular.ttf);
+}
+@font-face {
+  font-family: IBMPlexMono-Medium;
+  src: url(assets/fonts/IBMPlexMono-Medium.ttf);
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+}
+
