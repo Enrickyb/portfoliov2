@@ -1,18 +1,53 @@
+import { t } from "i18next";
+import { LanguageSelector } from "../LanguageSelector";
+import { useState } from "react";
+import logo from "../../assets/logoenricky.svg";
+
 export const Header = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <header className="bg-bg1 px-32 py-14">
+    <header className="bg-bg1 lg:px-32 lg:py-14 md:px-24 md:py-11 sm:px-16 px-5 py-6">
       <div className="flex flex-row justify-between">
-        <h1 className="text-white">TESTELOGO</h1>
-        <menu className="flex flex-row items-center justify-center gap-16">
-          <ul className="flex flex-row font-ibmRegular text-2xl text-white gap-8 items-center">
+        <img className="w-48" src={logo} alt="" />
+        <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 7H26M4 15H26M4 23H26"
+              stroke="#D7A700"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+        <menu
+          className={`lg:flex hidden flex-col lg:flex-row items-center gap-16 ${
+            isMenuOpen ? "flex" : "hidden"
+          }`}
+        >
+          <ul className="flex flex-row font-ibmRegular text-base sm:text-lg md:text-xl lg:text-2xl text-white gap-8 items-center">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home">{t("presentation.home")}</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about">{t("presentation.aboutMe")}</a>
+            </li>
+            <li>
+              <a href="#contact">{t("presentation.contact")}</a>
             </li>
           </ul>
-          <ul className="flex flex-row text-white font-ibmRegular text-base gap-8 items-center justify-center">
+          <ul className="md:flex hidden flex-row text-white font-ibmRegular text-base gap-8 items-center justify-center">
             <li className="flex flex-row">
               <a href="" className="flex flex-row gap-2 items-center">
                 <svg
@@ -39,7 +74,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p>Instagram</p>
+                <p className="xl:block hidden">Instagram</p>
               </a>
             </li>
             <li>
@@ -56,7 +91,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p>Discord</p>
+                <p className="xl:block hidden">Discord</p>
               </a>
             </li>
             <li>
@@ -73,10 +108,12 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p>Github</p>
+                <p className="xl:block hidden">Github</p>
               </a>
             </li>
           </ul>
+
+          <LanguageSelector />
         </menu>
       </div>
     </header>

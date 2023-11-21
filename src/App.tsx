@@ -4,13 +4,12 @@ import { Main } from "./sections/Main";
 
 function App() {
   return (
-    <>
-      <div className="h-screen bg-bg2">
-        <Header />
-        <Main />
-        <Footer />
-      </div>
-    </>
+    <div className="h-screen bg-bg1">
+      <Header />
+      <div className="border-b border-[#43454D] flex-grow"></div>
+      <Main />
+      <Footer />
+    </div>
   );
 }
 

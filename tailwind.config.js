@@ -23,6 +23,9 @@ export default {
     },
 
     extend: {
+      backgroundImage: {
+        aboutimg: "url('./src/assets//about.png')",
+      },
       spacing: {
         128: "32rem",
         144: "36rem",
@@ -32,6 +35,7 @@ export default {
       },
       fontSize: {
         64: "4rem",
+        32: "2rem",
       },
     },
   },

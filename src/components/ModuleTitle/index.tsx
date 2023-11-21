@@ -5,7 +5,7 @@ type ModuleTitleProps = {
 
 export const ModuleTitle = ({ title, subtitle, ...rest }: ModuleTitleProps) => {
   return (
-    <div className="flex flex-col justify-center items-center " {...rest}>
+    <div className="flex flex-col justify-center items-center px-4 " {...rest}>
       <svg
         width="32"
         height="146"
@@ -36,8 +36,24 @@ export const ModuleTitle = ({ title, subtitle, ...rest }: ModuleTitleProps) => {
         </defs>
       </svg>
       <div className="flex flex-col justify-center items-center mt-16">
-        <h1 className="text-64 text-brand1 font-ubuntuRegular">{title}</h1>
-        <p className="text-white font-ibmRegular text-base mt-4">{subtitle}</p>
+        <h1 className="text-64 text-center text-brand1 font-ubuntuRegular mb-4">
+          {title}
+        </h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="144"
+          height="12"
+          viewBox="0 0 144 12"
+          fill="none"
+        >
+          <path
+            d="M0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6ZM132.667 6C132.667 8.94552 135.054 11.3333 138 11.3333C140.946 11.3333 143.333 8.94552 143.333 6C143.333 3.05448 140.946 0.666667 138 0.666667C135.054 0.666667 132.667 3.05448 132.667 6ZM6 7H138V5H6V7Z"
+            fill="#D7A700"
+          />
+        </svg>
+        <p className="text-white font-ibmRegular text-base mt-4 text-center">
+          {subtitle}
+        </p>
       </div>
     </div>
   );

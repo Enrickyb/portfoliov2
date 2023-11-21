@@ -1,0 +1,24 @@
+{
+  "presentation": {
+    "home": "Home",
+    "aboutMe": "About me",
+    "contact": "Contact",
+    "hey": "Hey",
+    "iam": "I'm",
+    "stack": "Full-Stack Developer",
+    "desc": "I help business grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done",
+    "letstalk": "Let's Talk",
+    "planguages": "Programming Languages",
+    "devtools": "Development Tools",
+    "yearsexperience": "Years of Experience",
+    "skillsubtitle": "I am striving to never stop learning and improving",
+    "sendmeamessage": "Send Me A Message",
+    "name": "Your name",
+    "entername": "Enter your name",
+    "email": "Your email",
+    "enteremail": "Enter your email",
+    "message": "Your message",
+    "entermessage": "Enter your message",
+    "sendmessage": "Send Message"
+  }
+}

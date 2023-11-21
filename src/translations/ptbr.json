@@ -1,0 +1,24 @@
+{
+  "presentation": {
+    "home": "Home",
+    "aboutMe": "Sobre mim",
+    "contact": "Contato",
+    "hey": "Olá",
+    "iam": "Eu sou",
+    "stack": "Desenvolvedor Full-Stack",
+    "desc": "Eu ajudo negócios a crescer criando experiências incríveis na web. Se você está procurando um desenvolvedor que gosta de realizar tarefas",
+    "letstalk": "Vamos conversar",
+    "planguages": "Linguagens de programação",
+    "devtools": "Ferramentas de desenvolvimento",
+    "yearsexperience": "Anos de experiência",
+    "skillsubtitle": "Estou me esforçando para nunca parar de aprender e melhorar",
+    "sendmeamessage": "Envie-me uma mensagem",
+    "name": "Seu nome",
+    "entername": "Insira seu nome",
+    "email": "Seu email",
+    "enteremail": "Insira seu email",
+    "message": "Sua mensagem",
+    "entermessage": "Insira sua mensagem",
+    "sendmessage": "Enviar Mensagem"
+  }
+}
