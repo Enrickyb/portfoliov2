@@ -11,7 +11,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="bg-bg1 lg:px-32 lg:py-14 md:px-24 md:py-11 sm:px-16 px-5 py-6">
+    <header className="bg-bg1 lg:px-20 lg:py-14 md:px-16 md:py-11 sm:px-10 px-5 py-6">
       <div className="flex flex-row justify-between">
         <img className="w-48" src={logo} alt="" />
         <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
@@ -32,13 +32,15 @@ export const Header = () => {
           </svg>
         </div>
         <menu
-          className={`lg:flex hidden flex-col lg:flex-row items-center gap-16 ${
+          className={`lg:flex hidden flex-col lg:flex-row items-center gap-16  ${
             isMenuOpen ? "flex" : "hidden"
           }`}
         >
           <ul className="flex flex-row font-ibmRegular text-base sm:text-lg md:text-xl lg:text-2xl text-white gap-8 items-center">
             <li>
-              <a href="#home">{t("presentation.home")}</a>
+              <a href="#home" className="">
+                {t("presentation.home")}
+              </a>
             </li>
             <li>
               <a href="#about">{t("presentation.aboutMe")}</a>
@@ -74,7 +76,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p className="xl:block hidden">Instagram</p>
+                <p className="2xl:block hidden">Instagram</p>
               </a>
             </li>
             <li>
@@ -91,7 +93,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p className="xl:block hidden">Discord</p>
+                <p className="2xl:block hidden">Discord</p>
               </a>
             </li>
             <li>
@@ -108,7 +110,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p className="xl:block hidden">Github</p>
+                <p className="2xl:block hidden">Github</p>
               </a>
             </li>
           </ul>
