@@ -19,19 +19,13 @@ export const About = () => {
               Hello!
             </h1>
             <p className="text-white ml-6 font-ibmRegular text-base lg:text-lg mb-4">
-              My name is Sinan, and I specialize in web development that
-              utilizes HTML, CSS, JS, and REACT, etc.
+              {t("presentation.aboutp1")}
             </p>
             <p className="text-white ml-6 font-ibmRegular text-base lg:text-lg mb-4">
-              I am a highly motivated individual and eternal optimist dedicated
-              to writing clear, concise, robust code that works. Striving to
-              never stop learning and improving. When I'm not coding, I am
-              writing blogs, reading, or picking up some new hands-on art
-              project like photography.
+              {t("presentation.aboutp2")}
             </p>
             <p className="text-white ml-6 font-ibmRegular text-base lg:text-lg mb-4">
-              I like to have my perspective and belief systems challenged so
-              that I see the world through new eyes.
+              {t("presentation.aboutp3")}
             </p>
             <p className="text-brand1">{"</p>"}</p>
           </div>

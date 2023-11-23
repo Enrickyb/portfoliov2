@@ -19,6 +19,22 @@
     "enteremail": "Insira seu email",
     "message": "Sua mensagem",
     "entermessage": "Insira sua mensagem",
-    "sendmessage": "Enviar Mensagem"
+    "sendmessage": "Enviar Mensagem",
+    "aboutp1": " My name is Enricky, and I specialize in web development that utilizes HTML, CSS, JS, and REACT, etc.",
+    "aboutp2": "I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving. When I'm not coding, I am writing blogs, reading, or picking up some new hands-on art project like photography.",
+    "aboutp3": "  I like to have my perspective and belief systems challenged so that I see the world through new eyes."
+  },
+  "projects": {
+    "MovieApp": "Aplicativo android de filmes, desenvolvido nativamente em Java, consome API do The Movie DB.",
+    "FinanceControlApi": "API RESTfull para controle financeiro, desenvolvido em Java/Spring Boot e banco de dados POSTGRES.",
+    "FinanceControlApp": "Aplicativo de controle financeiro, desenvolvido em Java, consome a API Finance Control API.",
+    "WeatherApp": "App NextJs/TailwindCSS com a API OpenWeatherMap, fornece informações precisas do clima em tempo real.",
+    "StoreAPI": "API RESTfull para gerenciamento de produtos, desenvolvido em NodeJs/Express/Prisma e banco de dados MYSQL.",
+    "MidasStudio": "Landing page desenvolvida para Midas Studio, utilizando conceitos de SEO com as tecnologias React/TailwindCSS.",
+    "Pokedex": "Projeto NextJs/StyledComponents, consome API oficial do Pokémon, destaca técnicas de paginação.",
+    "NetflixClone": "Clone da página principal da Netflix, desafio e aprendizado prático em React/StyledComponents.",
+    "FinanceControl": "Projeto ReactJs/StyledComponents para controle financeiro, enfatizando o aprendizado React Hooks.",
+    "ViaCerta": "Clone do site Via Certa (Manaus-AM) em HTML/CSS/JavaScript, incluindo carrossel de imagens e menu hambúrguer",
+    "developin": "Desenvolvido em"
   }
 }

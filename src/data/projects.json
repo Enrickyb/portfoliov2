@@ -1,50 +1,112 @@
 [
   {
+    "name": "Movie App",
+    "formatName": "MovieApp",
+    "description": "Aplicativo android de filmes, desenvolvido nativamente em Java, consome API do The Movie DB.",
+    "image": "/projects/viacerta.png",
+    "tag": "Mobile",
+    "date": "10/2023",
+    "techs": ["Java"],
+    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
+    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
+  },
+  {
+    "name": "Finance Control API",
+    "formatName": "FinanceControlApi",
+    "description": "API RESTfull para controle financeiro, desenvolvido em Java/Spring Boot e banco de dados POSTGRES.",
+    "image": "/projects/viacerta.png",
+    "tag": "Back-end",
+    "date": "10/2023",
+    "techs": ["Java"],
+    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
+    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
+  },
+  {
+    "name": "Finance Control App",
+    "formatName": "FinanceControlApp",
+    "description": "Aplicativo de controle financeiro, desenvolvido em Java, consome a API Finance Control API.",
+    "image": "/projects/viacerta.png",
+    "tag": "Mobile",
+    "date": "10/2023",
+    "techs": ["Java"],
+    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
+    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
+  },
+  {
+    "name": "Store API",
+    "formatName": "StoreAPI",
+    "description": "API RESTfull para gerenciamento de produtos, desenvolvido em NodeJs/Express/Prisma e banco de dados MYSQL.",
+    "image": "/projects/viacerta.png",
+    "tag": "Back-end",
+    "date": "03/2023",
+    "techs": ["NodeJs", "Express", "Prisma", "MYSQL"],
+    "deploy": "https://github.com/Enrickyb/store-api",
+    "repo": "https://github.com/Enrickyb/store-api"
+  },
+  {
+    "name": "Midas Studio",
+    "formatName": "MidasStudio",
+    "description": "Landing page desenvolvida para Midas Studio, utilizando conceitos de SEO com as tecnologias React/TailwindCSS.",
+    "image": "/projects/midas.png",
+    "tag": "Front-end",
+    "date": "02/2022",
+    "techs": ["ReactJs", "TailwindCSS"],
+    "deploy": "midastudio.com.br",
+    "repo": "midastudio.com.br"
+  },
+  {
     "name": "Weather App",
-    "description": "App desenvolvido em NextJs e TailwindCSS utilizando a API do OpenWeatherMap. Fornecendo informações precisas e atualizadas do clima, em tempo real, para ajudar na tomada de decisões e planejamento diário.",
+    "formatName": "WeatherApp",
+    "description": "App NextJs/TailwindCSS com a API OpenWeatherMap, fornece informações precisas do clima em tempo real.",
     "image": "/projects/weatherapp.png",
+    "tag": "Front-end",
     "techs": ["Nextjs", "TailwindCSS"],
+    "date": "05/2022",
     "deploy": "https://github.com/Enrickyb/Weather-Information",
     "repo": "https://github.com/Enrickyb/Weather-Information"
   },
   {
     "name": "Pokedex",
-    "description": "Projeto desenvolvido em NextJs e StyledComponents utilizando a API oficial do pokemon. Nesse projeto tive a oportunidade de aprender um pouco sobre paginação e consumo de API em geral",
+    "formatName": "Pokedex",
+    "description": "Projeto NextJs/StyledComponents, consome API oficial do Pokémon, destaca técnicas de paginação.",
     "image": "/projects/pokedex.png",
+    "tag": "Front-end",
+    "date": "06/2022",
     "techs": ["ReactJs", "StyledComponents"],
     "deploy": "https://pokedex-enricky.netlify.app/",
     "repo": "https://github.com/Enrickyb/Pokedex"
   },
   {
     "name": "Netflix Clone",
-    "description": "Este é um clone da página principal do netflix. Este foi um projeto desafiador onde pude aprimorar e colocar meus conhecimentos em prática.",
+    "formatName": "NetflixClone",
+    "description": "Clone da página principal da Netflix, desafio e aprendizado prático em React/StyledComponents.",
     "image": "/projects/NetflixClone.png",
+    "tag": "Front-end",
+    "date": "03/2022",
     "techs": ["HTML", "CSS"],
-    "deploy": "https://netflixbyenricky.netlify.app/",
+    "deploy": "https://github.com/Enrickyb/NetflixClone",
     "repo": "https://github.com/Enrickyb/NetflixClone"
   },
   {
     "name": "Finance Control",
-    "description": "Este projeto foi desenvolvido para aprender um pouco mais sobre React principalmente a partir dos React Hooks. É possível adicionar despesas e ganhos mensais.",
+    "formatName": "FinanceControl",
+    "description": "Projeto ReactJs/StyledComponents para controle financeiro, enfatizando o aprendizado React Hooks.",
     "image": "/projects/sistemafinanceiro.png",
+    "tag": "Front-end",
+    "date": "02/2022",
     "techs": ["ReactJs", "StyledComponents"],
     "deploy": "https://github.com/Enrickyb/Controle-de-Financas",
     "repo": "https://github.com/Enrickyb/Controle-de-Financas"
   },
   {
     "name": "Via Certa",
-    "description": "Este projeto é um clone do site da distribuidora Via Certa de Manaus-AM, no qual aprendi lições importantes como o carrossel de imagens e o cardápio do Hambúrguer.",
+    "formatName": "ViaCerta",
+    "description": "Clone do site Via Certa (Manaus-AM) em HTML/CSS/JavaScript, incluindo carrossel de imagens e cardápio de hambúrguer",
     "image": "/projects/viacerta.png",
+    "tag": "Front-end",
+    "date": "02/2022",
     "techs": ["HTML", "CSS", "JavaScript"],
     "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
     "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
-  },
-  {
-    "name": "Memory Game",
-    "description": "Um pequeno projeto onde coloquei em prática meus aprendizados de JavaScript e pude aprender muitas coisas.",
-    "image": "/projects/memorygame.png",
-    "techs": ["HTML", "CSS", "JavaScript"],
-    "deploy": "https://memory-game-enrickyb.vercel.app/",
-    "repo": "https://github.com/Enrickyb/memory-game"
   }
 ]
