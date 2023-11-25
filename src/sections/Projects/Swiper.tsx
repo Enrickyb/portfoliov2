@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 import { Swiper as SwiperRc, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -16,12 +16,17 @@ import Projects from "../../data/projects.json";
 export const Swiper = () => {
   return (
     <SwiperRc
-      modules={[Navigation, Pagination]}
+      modules={[Navigation, Pagination, Autoplay]}
       slidesPerView={1}
       style={{ width: "100%", height: "100%" }}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+      loop={true}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
       navigation={true}
+      scrollbar={{ draggable: true }}
       centeredSlidesBounds={true}
       centeredSlides={true}
     >
@@ -31,7 +36,7 @@ export const Swiper = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            padding: "80px",
+            padding: "50px",
           }}
         >
           <ProjectCard key={index} project={project} />

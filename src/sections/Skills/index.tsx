@@ -6,11 +6,16 @@ import android from "../../assets/icons/android.svg";
 import javascript from "../../assets/icons/javascript.svg";
 import react from "../../assets/icons/react.svg";
 import java from "../../assets/icons/java.svg";
-import { t } from "i18next";
+
+import { useTranslation } from "react-i18next";
 export const Skills = () => {
+  const { t } = useTranslation();
   return (
     <div className="bg-bg1 h-full w-full py-32 flex flex-col items-center ">
-      <ModuleTitle title="Skills" subtitle={t("presentation.skillsubtitle")} />
+      <ModuleTitle
+        title={t("presentation.skills")}
+        subtitle={t("presentation.skillsubtitle")}
+      />
       <div className="flex flex-col flex-grow-0 items-center mt-16 ">
         <div className="flex flex-row flex-wrap justify-center items-center gap-32">
           <SkillsCard

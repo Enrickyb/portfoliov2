@@ -20,9 +20,14 @@
     "message": "Sua mensagem",
     "entermessage": "Insira sua mensagem",
     "sendmessage": "Enviar Mensagem",
-    "aboutp1": " My name is Enricky, and I specialize in web development that utilizes HTML, CSS, JS, and REACT, etc.",
-    "aboutp2": "I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving. When I'm not coding, I am writing blogs, reading, or picking up some new hands-on art project like photography.",
-    "aboutp3": "  I like to have my perspective and belief systems challenged so that I see the world through new eyes."
+    "hello": "Olá!",
+    "skills": "Habilidades",
+    "aboutp1": " Meu nome é Enricky e sou especialista em desenvolvimento web full-stack. Tenho experiência em desenvolvimento de aplicativos móveis nativos, aplicativos web e APIs RESTfull. Atualmente, estou focado em desenvolvimento mobile com Java",
+    "aboutp2": "Sou um indivíduo altamente motivado e um eterno otimista, dedicado a escrever códigos claros, concisos e robustos que funcionem. Esforçando-se para nunca parar de aprender e melhorar.",
+    "aboutp3": "Gosto de ter minha novos desafios e tecnologias para aprender.",
+    "projects": "Projetos",
+    "conctactdesc": "Atualmente estou disponível para trabalho freelance",
+    "projectsdesc": "Tive o prazer de trabalhar com esses projetos incríveis"
   },
   "projects": {
     "MovieApp": "Aplicativo android de filmes, desenvolvido nativamente em Java, consome API do The Movie DB.",

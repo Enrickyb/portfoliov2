@@ -140,13 +140,20 @@ export const Presentation = () => {
           <div>
             <div>
               <p className="text-brand1">{"<h1>"}</p>
-              <div className="ml-6 font-ubuntuRegular text-64">
-                <h1 className="text-white">{t("presentation.hey")}</h1>
-                <h1 className="text-white">
-                  {t("presentation.iam")}
-                  <span className="text-brand1"> Enricky</span>
+              <div className="ml-6 font-ubuntuRegular">
+                <h1 className="text-white md:text-64 text-5xl">
+                  {t("presentation.hey")}
                 </h1>
-                <h1 className="text-white">{t("presentation.stack")}</h1>
+                <h1 className="text-white md:text-64 text-5xl">
+                  {t("presentation.iam")}
+                  <span className="text-brand1 md:text-64 text-5xl">
+                    {" "}
+                    Enricky
+                  </span>
+                </h1>
+                <h1 className="text-white md:text-64 text-5xl">
+                  {t("presentation.stack")}
+                </h1>
               </div>
               <p className="text-brand1">{"</h1>"}</p>
               <p className="text-brand1 mt-4">{"<p>"}</p>

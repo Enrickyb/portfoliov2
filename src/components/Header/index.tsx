@@ -1,17 +1,18 @@
-import { t } from "i18next";
 import { LanguageSelector } from "../LanguageSelector";
 import { useState } from "react";
 import logo from "../../assets/logoenricky.svg";
+import { useTranslation } from "react-i18next";
 
 export const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className="bg-bg1 lg:px-32 lg:py-14 md:px-24 md:py-11 sm:px-16 px-5 py-6">
+    <header className="bg-bg1 lg:px-20 lg:py-14 md:px-16 md:py-11 sm:px-10 px-5 py-6 max-w-[1920px] m-auto">
       <div className="flex flex-row justify-between">
         <img className="w-48" src={logo} alt="" />
         <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
@@ -32,7 +33,7 @@ export const Header = () => {
           </svg>
         </div>
         <menu
-          className={`lg:flex hidden flex-col lg:flex-row items-center gap-16 ${
+          className={`lg:flex hidden flex-col lg:flex-row items-center gap-16  ${
             isMenuOpen ? "flex" : "hidden"
           }`}
         >
@@ -74,7 +75,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p className="xl:block hidden">Instagram</p>
+                <p className="2xl:block hidden">Instagram</p>
               </a>
             </li>
             <li>
@@ -91,7 +92,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p className="xl:block hidden">Discord</p>
+                <p className="2xl:block hidden">Discord</p>
               </a>
             </li>
             <li>
@@ -108,7 +109,7 @@ export const Header = () => {
                     fill="#D7A700"
                   />
                 </svg>
-                <p className="xl:block hidden">Github</p>
+                <p className="2xl:block hidden">Github</p>
               </a>
             </li>
           </ul>

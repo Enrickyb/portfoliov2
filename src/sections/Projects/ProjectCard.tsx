@@ -16,14 +16,14 @@ type ProjectCardProps = {
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div className="flex flex-col justify-start pt-6 pb-3 grow-0 w-[800px] bg-bg2 rounded-2xl">
+    <div className="flex flex-col justify-start pt-6 pb-3 grow-0 w-[900px] bg-bg2 rounded-2xl max-w-[780px] mb-10">
       <div className="flex flex-col justify-center text-white">
         <div className="flex justify-center items-center self-center w-[95%] ">
           <a href={project.deploy} target="_blank">
             <img
               src={`${project.image}`}
               alt={project.name}
-              className="rounded-xl w-[780px] h-[400px]"
+              className="rounded-xl max-h-[300px]"
             />
           </a>
         </div>

@@ -1,9 +1,11 @@
 import emailjs from "@emailjs/browser";
-import { t } from "i18next";
+
 import { useEffect, useRef, useState } from "react";
 import { Button } from "../../components/Button";
+import { useTranslation } from "react-i18next";
 
 export const Form = () => {
+  const { t } = useTranslation();
   const emailRef = useRef<HTMLInputElement>(null);
   const nameRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLInputElement>(null);

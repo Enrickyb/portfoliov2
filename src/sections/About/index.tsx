@@ -1,8 +1,9 @@
-import { t } from "i18next";
 import titleMouse from "../../assets/icons/titlemouse.svg";
 import devImage from "../../assets/devimage.png";
+import { useTranslation } from "react-i18next";
 
 export const About = () => {
+  const { t } = useTranslation();
   return (
     <div className="mt-32 bg-aboutimg bg-no-repeat bg-center bg-cover w-full h-full px-6 lg:px-32 py-16 lg:py-32 flex flex-col items-center">
       <div className="text-center">
@@ -16,7 +17,7 @@ export const About = () => {
           <div className="max-w-lg lg:max-w-3xl md:min-w-[500px] mt-8 rounded-lg px-6 lg:px-10 py-6 bg-bg1">
             <p className="text-brand1 mb-4">{"<p>"}</p>
             <h1 className="text-brand1 font-ibmMedium text-xl lg:text-2xl ml-6 mb-4">
-              Hello!
+              {t("presentation.hello")}
             </h1>
             <p className="text-white ml-6 font-ibmRegular text-base lg:text-lg mb-4">
               {t("presentation.aboutp1")}
