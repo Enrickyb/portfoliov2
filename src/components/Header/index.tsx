@@ -12,7 +12,11 @@ export const Header = () => {
   };
 
   return (
+<<<<<<< HEAD
     <header className="bg-bg1 lg:px-20 lg:py-14 md:px-16 md:py-11 sm:px-10 px-5 py-6 max-w-[1920px] m-auto">
+=======
+    <header className="bg-bg1 lg:px-20 lg:py-14 md:px-16 md:py-11 sm:px-10 px-5 py-6">
+>>>>>>> 6c399dbd6dfbd8cd3c4d4de8f105e740621cd23f
       <div className="flex flex-row justify-between">
         <img className="w-48" src={logo} alt="" />
         <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
@@ -39,7 +43,9 @@ export const Header = () => {
         >
           <ul className="flex flex-row font-ibmRegular text-base sm:text-lg md:text-xl lg:text-2xl text-white gap-8 items-center">
             <li>
-              <a href="#home">{t("presentation.home")}</a>
+              <a href="#home" className="">
+                {t("presentation.home")}
+              </a>
             </li>
             <li>
               <a href="#about">{t("presentation.aboutMe")}</a>
