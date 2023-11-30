@@ -23,7 +23,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             <img
               src={`${project.image}`}
               alt={project.name}
-              className="rounded-xl max-h-[300px]"
+              className="rounded-xl"
             />
           </a>
         </div>
