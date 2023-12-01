@@ -1,9 +1,8 @@
 // import Swiper core and required modules
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 import { Swiper as SwiperRc, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
 
 // Import Swiper styles
 import "swiper/css";
@@ -16,7 +15,7 @@ import Projects from "../../data/projects.json";
 export const Swiper = () => {
   return (
     <SwiperRc
-      modules={[Navigation, Pagination, Autoplay]}
+      modules={[Pagination, Autoplay]}
       slidesPerView={1}
       style={{ width: "100%", height: "100%" }}
       autoplay={{
@@ -25,7 +24,6 @@ export const Swiper = () => {
       }}
       loop={true}
       pagination={{ clickable: true }}
-      navigation={true}
       scrollbar={{ draggable: true }}
       centeredSlidesBounds={true}
       centeredSlides={true}

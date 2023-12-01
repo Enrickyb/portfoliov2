@@ -3,7 +3,7 @@
     "name": "Movie App",
     "formatName": "MovieApp",
     "description": "Aplicativo android de filmes, desenvolvido nativamente em Java, consome API do The Movie DB.",
-    "image": "/projects/viacerta.png",
+    "image": "/projects/movieapp.png",
     "tag": "Mobile",
     "date": "10/2023",
     "techs": ["Java"],
