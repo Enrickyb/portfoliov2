@@ -5,7 +5,10 @@ export const Footer = () => {
         <div>
           <ul className="flex flex-row text-white font-ibmRegular text-base gap-8 items-center justify-center">
             <li className="flex flex-row">
-              <a href="" className="flex flex-row gap-2 items-center">
+              <a
+                href="https://www.instagram.com/enricky.b/"
+                className="flex flex-row gap-2 items-center"
+              >
                 <svg
                   width="20"
                   height="20"
@@ -51,7 +54,10 @@ export const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="" className="flex flex-row gap-2 items-center">
+              <a
+                href="https://github.com/Enrickyb"
+                className="flex flex-row gap-2 items-center"
+              >
                 <svg
                   width="18"
                   height="18"
