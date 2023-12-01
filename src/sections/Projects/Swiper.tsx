@@ -28,18 +28,21 @@ export const Swiper = () => {
       centeredSlidesBounds={true}
       centeredSlides={true}
     >
-      {Projects.map((project, index) => (
-        <SwiperSlide
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "50px",
-          }}
-        >
-          <ProjectCard key={index} project={project} />
-        </SwiperSlide>
-      ))}
+      {Projects.map(
+        (project, index) =>
+          project.active && (
+            <SwiperSlide
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "50px",
+              }}
+            >
+              <ProjectCard key={index} project={project} />
+            </SwiperSlide>
+          )
+      )}
     </SwiperRc>
   );
 };

@@ -6,9 +6,10 @@
     "image": "/projects/movieapp.png",
     "tag": "Mobile",
     "date": "10/2023",
+    "active": true,
     "techs": ["Java"],
-    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
-    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
+    "deploy": "https://github.com/Enrickyb/MovieApp",
+    "repo": "https://github.com/Enrickyb/MovieApp"
   },
   {
     "name": "Finance Control API",
@@ -17,9 +18,10 @@
     "image": "/projects/backthumb.png",
     "tag": "Back-end",
     "date": "10/2023",
+    "active": true,
     "techs": ["Java"],
-    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
-    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
+    "deploy": "https://github.com/Enrickyb/finance_control_api",
+    "repo": "https://github.com/Enrickyb/finance_control_api"
   },
   {
     "name": "Finance Control App",
@@ -28,6 +30,7 @@
     "image": "/projects/viacerta.png",
     "tag": "Mobile",
     "date": "10/2023",
+    "active": false,
     "techs": ["Java"],
     "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
     "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
@@ -39,6 +42,7 @@
     "image": "/projects/backthumb.png",
     "tag": "Back-end",
     "date": "03/2023",
+    "active": true,
     "techs": ["NodeJs", "Express", "Prisma", "MYSQL"],
     "deploy": "https://github.com/Enrickyb/store-api",
     "repo": "https://github.com/Enrickyb/store-api"
@@ -50,6 +54,7 @@
     "image": "/projects/midas.png",
     "tag": "Front-end",
     "date": "02/2022",
+    "active": true,
     "techs": ["ReactJs", "TailwindCSS"],
     "deploy": "midastudio.com.br",
     "repo": "midastudio.com.br"
@@ -62,6 +67,7 @@
     "tag": "Front-end",
     "techs": ["Nextjs", "TailwindCSS"],
     "date": "05/2022",
+    "active": true,
     "deploy": "https://github.com/Enrickyb/Weather-Information",
     "repo": "https://github.com/Enrickyb/Weather-Information"
   },
@@ -73,6 +79,7 @@
     "tag": "Front-end",
     "date": "06/2022",
     "techs": ["ReactJs", "StyledComponents"],
+    "active": true,
     "deploy": "https://pokedex-enricky.netlify.app/",
     "repo": "https://github.com/Enrickyb/Pokedex"
   },
@@ -84,6 +91,7 @@
     "tag": "Front-end",
     "date": "03/2022",
     "techs": ["HTML", "CSS"],
+    "active": true,
     "deploy": "https://github.com/Enrickyb/NetflixClone",
     "repo": "https://github.com/Enrickyb/NetflixClone"
   },
@@ -95,6 +103,7 @@
     "tag": "Front-end",
     "date": "02/2022",
     "techs": ["ReactJs", "StyledComponents"],
+    "active": true,
     "deploy": "https://github.com/Enrickyb/Controle-de-Financas",
     "repo": "https://github.com/Enrickyb/Controle-de-Financas"
   },
@@ -104,6 +113,7 @@
     "description": "Clone do site Via Certa (Manaus-AM) em HTML/CSS/JavaScript, incluindo carrossel de imagens e cardápio de hambúrguer",
     "image": "/projects/viacerta.png",
     "tag": "Front-end",
+    "active": true,
     "date": "02/2022",
     "techs": ["HTML", "CSS", "JavaScript"],
     "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
