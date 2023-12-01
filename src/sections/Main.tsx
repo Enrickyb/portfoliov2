@@ -7,10 +7,13 @@ import { Projects } from "./Projects";
 export const Main = () => {
   return (
     <main className="">
+      <div id="home"></div>
       <Presentation />
+      <div id="about"></div>
       <About />
       <Skills />
       <Projects />
+      <div id="contact"></div>
       <Contact />
     </main>
   );
