@@ -4,40 +4,15 @@ import logo from "../../assets/logoenricky.svg";
 import { useTranslation } from "react-i18next";
 
 export const Header = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
   const { t } = useTranslation();
-
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
 
   return (
     <header className="bg-bg1 lg:px-20 lg:py-14 md:px-16 md:py-11 sm:px-10 px-5 py-6 max-w-[1920px] m-auto">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row lg:justify-between justify-center gap-16">
         <img className="w-48" src={logo} alt="" />
-        <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
-          <svg
-            width="30"
-            height="30"
-            viewBox="0 0 30 30"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M4 7H26M4 15H26M4 23H26"
-              stroke="#D7A700"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-        <menu
-          className={`lg:flex hidden flex-col lg:flex-row items-center gap-16  ${
-            isMenuOpen ? "flex" : "hidden"
-          }`}
-        >
-          <ul className="flex flex-row font-ibmRegular text-base sm:text-lg md:text-xl lg:text-2xl text-white gap-8 items-center">
+
+        <menu className={`flex flex-row items-center gap-16 `}>
+          <ul className="hidden lg:flex flex-row font-ibmRegular text-base sm:text-lg md:text-xl lg:text-2xl text-white gap-8 items-center">
             <li>
               <a href="#home" className="">
                 {t("presentation.home")}
