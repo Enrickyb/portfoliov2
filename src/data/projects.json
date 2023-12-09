@@ -54,7 +54,7 @@
     "image": "/projects/midas.png",
     "tag": "Front-end",
     "date": "02/2022",
-    "active": true,
+    "active": false,
     "techs": ["ReactJs", "TailwindCSS"],
     "deploy": "midastudio.com.br",
     "repo": "midastudio.com.br"
