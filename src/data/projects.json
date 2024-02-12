@@ -1,5 +1,53 @@
 [
   {
+    "name": "Finance Control App",
+    "formatName": "FinanceControlApp",
+    "description": "Aplicativo de controle financeiro, desenvolvido em Java, consome a API Finance Control API.",
+    "image": "/projects/viacerta.png",
+    "tag": "Mobile",
+    "date": "10/2023",
+    "active": false,
+    "techs": ["Java"],
+    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
+    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
+  },
+  {
+    "name": "Vigilancia Sanitária Cuiabá",
+    "formatName": "vigilancia",
+    "description": "Aplicativo para vigilancia sanitária da prefeitura de Cuiabá-MT, desenvolvido em React Native.",
+    "image": "/projects/vigilancia.png",
+    "tag": "Mobile",
+    "date": "12/2023",
+    "active": true,
+    "techs": ["React Native"],
+    "deploy": "",
+    "repo": ""
+  },
+  {
+    "name": "Microservice Email sender",
+    "formatName": "emailsender",
+    "description": "Microserviço para envio de e-mails, desenvolvido em Java com Spring Boot.",
+    "image": "/projects/backthumb.png",
+    "tag": "Back-end",
+    "date": "12/2023",
+    "active": true,
+    "techs": ["Java"],
+    "deploy": "https://github.com/Enrickyb/email-service",
+    "repo": "https://github.com/Enrickyb/email-service"
+  },
+  {
+    "name": "Web Scraper",
+    "formatName": "webscraper",
+    "description": "Web Scraper desenvolvido em python para coleta de dados no site OneFootball para fins educativos.",
+    "image": "/projects/backthumb.png",
+    "tag": "Back-end",
+    "date": "12/2023",
+    "active": true,
+    "techs": ["Python"],
+    "deploy": "https://github.com/Enrickyb/webscrapper",
+    "repo": "https://github.com/Enrickyb/webscrapper"
+  },
+  {
     "name": "Movie App",
     "formatName": "MovieApp",
     "description": "Aplicativo android de filmes, desenvolvido nativamente em Java, consome API do The Movie DB.",
@@ -23,18 +71,7 @@
     "deploy": "https://github.com/Enrickyb/finance_control_api",
     "repo": "https://github.com/Enrickyb/finance_control_api"
   },
-  {
-    "name": "Finance Control App",
-    "formatName": "FinanceControlApp",
-    "description": "Aplicativo de controle financeiro, desenvolvido em Java, consome a API Finance Control API.",
-    "image": "/projects/viacerta.png",
-    "tag": "Mobile",
-    "date": "10/2023",
-    "active": false,
-    "techs": ["Java"],
-    "deploy": "https://enrickyb.github.io/Clone-site-ViaCerta/",
-    "repo": "https://github.com/Enrickyb/Clone-site-ViaCerta"
-  },
+
   {
     "name": "Store API",
     "formatName": "StoreAPI",
@@ -103,7 +140,7 @@
     "tag": "Front-end",
     "date": "02/2022",
     "techs": ["ReactJs", "StyledComponents"],
-    "active": true,
+    "active": false,
     "deploy": "https://github.com/Enrickyb/Controle-de-Financas",
     "repo": "https://github.com/Enrickyb/Controle-de-Financas"
   },

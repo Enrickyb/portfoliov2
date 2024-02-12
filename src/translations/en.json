@@ -40,6 +40,10 @@
     "NetflixClone": "Clone of the Netflix home page, challenge and practical learning in React/StyledComponents.",
     "FinanceControl": "ReactJs/StyledComponents project for financial control, emphasizing learning React Hooks and UseStates.",
     "ViaCerta": "Clone of the Via Certa (Manaus-AM) website in HTML/CSS/JavaScript, including image carousel and hamburger menu",
+    "vigilancia": "Application for health surveillance in Cuiabá-MT, developed in React Native.",
+    "webscraper": "Web Scraper developed in Python to collect data on the OneFootball website for educational purposes.",
+    "emailsender": "Microservice for sending emails, developed in Java, using concepts for microservices.",
+
     "developin": "Developed in"
   }
 }

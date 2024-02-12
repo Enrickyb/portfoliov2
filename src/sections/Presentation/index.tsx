@@ -5,7 +5,7 @@ import emailbutton from "../../assets/icons/emailbutton.svg";
 export const Presentation = () => {
   const { t } = useTranslation();
   return (
-    <section className="w-full flex flex-row flex-wrap items-center justify-center gap-32 mt-16">
+    <section className="w-full flex flex-row flex-wrap items-center justify-center gap-20 xl:gap-28 mt-16">
       <div className="w-fit pl-6 pr-14 py-9 rounded-ss-[160px] rounded-ee-[160px] border-white border-[4px] flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center mb-8 text-white">
           <img
@@ -147,17 +147,17 @@ export const Presentation = () => {
             <div>
               <p className="text-brand1">{"<h1>"}</p>
               <div className="ml-6 font-ubuntuRegular">
-                <h1 className="text-white md:text-64 text-5xl">
+                <h1 className="text-white xl:text-64 text-5xl">
                   {t("presentation.hey")}
                 </h1>
-                <h1 className="text-white md:text-64 text-5xl">
+                <h1 className="text-white xl:text-64 text-5xl">
                   {t("presentation.iam")}
-                  <span className="text-brand1 md:text-64 text-5xl">
+                  <span className="text-brand1 xl:g:text-64 text-5xl">
                     {" "}
                     Enricky
                   </span>
                 </h1>
-                <h1 className="text-white md:text-64 text-5xl">
+                <h1 className="text-white lg:text-64 text-5xl">
                   {t("presentation.stack")}
                 </h1>
               </div>
